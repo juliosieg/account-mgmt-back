@@ -38,7 +38,7 @@ module.exports = {
         .then((account) => res.status(201).send(account))
         .catch((error) => res.status(400).send(error))
     } catch (err) {
-      res.status(500).send('Algo de errado aconteceu. '+err)
+      res.status(500).send('Algo de errado aconteceu. ' + err)
     }
   },
 

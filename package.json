@@ -5,16 +5,27 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "standard"
+    "test": "standard && mocha --timeout 15000"
   },
   "author": "Julio Sieg",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "mocha": "^9.0.1",
     "moment": "^2.29.1",
     "sequelize": "^6.6.2",
     "sequelize-cli": "^6.2.0",
-    "sqlite3": "^5.0.2",
-    "standard": "^16.0.3"
+    "sqlite3": "^5.0.2"
+  },
+  "standard": {
+    "ignore": [
+      "test/test.js"
+    ]
+  },
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "chai": "^4.3.4",
+    "request": "^2.88.2",
+    "should": "^13.2.3"
   }
 }

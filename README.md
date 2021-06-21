@@ -180,4 +180,12 @@ Realizar uma ação em uma conta existente.
 
 ### Testes
 
-Alguns poucos testes foram adicionados nessa API, porém, para executá-los, deve-se rodar o seguinte comando:
+Alguns poucos testes foram adicionados nessa API.
+
+Os testes de funcionalidade inseridos necessitam que a API esteja rodando, conforme demonstrado anteriormente neste documento.
+
+Para executar os testes, rode o seguinte comando:
+
+`npm run test`
+
+Além dos testes de funcionalidades, serão realizados testes de estilo baseados no [Javascript Standard Style](https://standardjs.com/), sendo que, caso o estilo não esteja adaptado ao que se espera, pode-se rodar o comando `standard --fix` para tentar executar correções automáticas do estilo.

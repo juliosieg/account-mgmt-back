@@ -19,5 +19,4 @@ module.exports = app => {
   // Actions
   app.get('/api/account/:accountId/actions', actionsController.getAllActionsFromAccount)
   app.post('/api/account/:accountId/actions', actionsController.add)
-  
 }
