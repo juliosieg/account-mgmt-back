@@ -15,17 +15,16 @@
     "moment": "^2.29.1",
     "sequelize": "^6.6.2",
     "sequelize-cli": "^6.2.0",
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.0.2",
+    "standard": "^16.0.3",
+    "chai": "^4.3.4",
+    "request": "^2.88.2",
+    "should": "^13.2.3"
   },
   "standard": {
     "ignore": [
       "test/test.js"
     ]
   },
-  "devDependencies": {
-    "standard": "^16.0.3",
-    "chai": "^4.3.4",
-    "request": "^2.88.2",
-    "should": "^13.2.3"
-  }
+  "devDependencies": {}
 }

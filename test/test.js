@@ -3,7 +3,12 @@ var request = require("request");
 var chai = require("chai");
 var expect = chai.expect;
 
-var urlBase = "http://localhost:8001/api";
+const PORT = process.env.PORT || 8001
+
+const production  = 'https://shielded-tundra-59840.herokuapp.com/api';
+const development = 'http://localhost:'+PORT+'/api';
+const urlBase = (process.env.NODE_ENV ? production : development);
+
 
 describe('Criar conta bancária', function() {
 
